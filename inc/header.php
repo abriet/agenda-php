@@ -8,10 +8,10 @@
 <body>
 	<div class="container">
 		<header id="header" class="header">
-			<div class="logo">
+			<a href="index.php" title="HOME"><div class="logo">
 				<img src="http://2.bp.blogspot.com/-BLs5MduSvJA/TxYl5Pl8mkI/AAAAAAAAAPk/5v6B2hW7Jrc/s400/agenda.png">
 				<h1>Agenda 2017</h1>
-			</div>
+			</div></a>
 			<nav>
 				<ul class="menu">
 					<li><a href="?p=1&pagina=agendar" title="Agendar um horário"><i class="material-icons">add</i>Agendar Horário</a></li>
