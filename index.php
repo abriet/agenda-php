@@ -2,6 +2,11 @@
 		<main>
 			<section>
 				<?php 
+				if(isset($_GET['msg'])) {
+					require_once("inc/fnc.php");
+					echo display_message($_GET['msg']);
+				}
+
 				$page = @$_GET['p'];
 				if (isset($page) && $page != "0") {
 					$pagina = @$_GET['pagina'];

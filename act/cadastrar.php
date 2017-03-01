@@ -1,5 +1,6 @@
 <?php 
 	require_once('../inc/cnx.php');
+	require_once('../inc/fnc.php');
 	//VAI CADASTRAR UM NOVO COMPROMISSO NA AGENDA!
 	//Verifica se tem algum formulario enviado via POST
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -14,8 +15,8 @@
 
 			$cad = mysqli_query($cnx,"INSERT INTO tb_agenda(nome, tel, data_agendada, hora_agendada, status) VALUES ('$nome','$tel','$data','$hora','$status')");
 			if($cad){
-				$msg = "Compromisso Cadastrado!";
-				header("Location: ../index.php?p=1&pagina=listar&msg={$msg}");
+				$msg = create_message("Compromisso Cadastrado!");
+				header("Location: ../index.php?p=1&pagina=listar&msg=".$msg);
 			}else{
 				echo "Houve um erro ao cadastrar um compromisso!";
 			}
