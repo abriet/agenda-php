@@ -1,0 +1,11 @@
+RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteBase /agenda
+
+    
+
+   	RewriteRule ^Home$ index.php [QSA,L,NC]
+   	RewriteRule ^Agendamento$ index.php?p=1&pagina=agendar [QSA,L,NC]
+   	RewriteRule ^Listagem$ index.php?p=1&pagina=listar [QSA,L,NC]
+   	RewriteRule ^Config$ index.php?p=1&pagina=configuracao [QSA,L,NC]
