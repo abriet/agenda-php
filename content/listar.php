@@ -24,7 +24,7 @@
             <td><?php echo $result['tel'] ?></td>
             <td><?php echo implode('/', array_reverse(explode('-', $result['data_agendada']))) ?></td>
             <td><?php echo $result['hora'] ?></td>
-            <td></td>	
+            <td><i class="material-icons">mode_edit</i></td>	
           </tr>
         <?php } ?>
         </tbody>

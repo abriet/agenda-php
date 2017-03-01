@@ -16,13 +16,11 @@
 				<ul class="menu">
 					<li><a href="?p=1&pagina=agendar" title="Agendar um horário"><i class="material-icons">add</i>Agendar Horário</a></li>
 					<li><a href="?p=1&pagina=listar" title="Listar Horários"><i class="material-icons">list</i> Listar Horários</a></li>
-					<li><a href="#" title="Alterar horários cadastrados"><i class="material-icons">mode_edit</i> Alterar Horários</a></li>
 					<li><a href="?p=1&pagina=configuracao" title="Configurações da Agenda"><i class="material-icons">settings</i> Configurações</a></li>
 				</ul>
 				<ul class="menu-mobile">
 					<li><a href="?p=1&pagina=agendar" title="Agendar um horário"><i class="material-icons">add</i></a></li>
 					<li><a href="?p=1&pagina=listar" title="Listar Horários"><i class="material-icons">list</i></a></li>
-					<li><a href="#" title="Alterar horários cadastrados"><i class="material-icons">mode_edit</i></a></li>
 					<li><a href="?p=1&pagina=configuracao" title="Configurações da Agenda"><i class="material-icons">settings</i></a></li>
 				</ul>
 			</nav>
