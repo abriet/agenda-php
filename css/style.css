@@ -90,4 +90,9 @@ footer{
 		flex: row wrap;
 		justify-content: space-around;
 	}
+	.pagina h1{
+		position: relative;
+		font-size: 36px;
+	}
+
 }
