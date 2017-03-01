@@ -3,10 +3,10 @@
 			<section>
 				<?php 
 				$page = @$_GET['p'];
-				if (isset($page) && $page != "") {
+				if (isset($page) && $page != "0") {
 					$pagina = @$_GET['pagina'];
 					if(isset($pagina) && $pagina != ""){
-						require_once("content/{$pagina}");
+						require_once("content/{$pagina}.php");
 					}else{
 						header("Location: index.php");
 					}
